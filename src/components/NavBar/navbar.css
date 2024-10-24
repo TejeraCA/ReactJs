@@ -1,0 +1,49 @@
+.navbar{
+    background-color: rgb(28, 28, 28) !important;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+}
+
+.navbar{
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul li{
+margin: 50px;
+list-style-type: none;
+}
+
+.navbar ul li a{
+    font-size: 25px;
+    color: antiquewhite;
+}
+
+
+.cart{
+    width: 150px;
+    margin-right: 25px;
+}
+
+.imgnav{
+    display: flex;
+    justify-content: flex-end;
+    width: 150px;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(58, 49, 49);
+}
+

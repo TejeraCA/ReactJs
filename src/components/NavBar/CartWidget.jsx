@@ -1,10 +1,11 @@
-import iconCart from "../../assets/cart.png"
+import { FaCartShopping } from "react-icons/fa6";
+
 
 const CartWidget = () => {
     return (
         <div>
-            <img src={iconCart} alt width= "100" />
-            <p>1</p>
+            <FaCartShopping size={35} />
+            <p>2</p>
         </div>
     )
 }

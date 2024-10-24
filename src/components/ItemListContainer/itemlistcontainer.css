@@ -1,0 +1,20 @@
+.container-app{
+    background-color: rgb(145, 149, 147);
+}
+
+.container-app div div{
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+.container-app div div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
